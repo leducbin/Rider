@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="The fused Location Provider will only maintain background location if at least one client is connected to it. Now just turning on the location service will not guarantee to store the last known location.
+        Once the first client connects, it will immediately try to get a location. If your activity is the first client to connect and getLastLocation() is invoked right away in onConnected(), that might not be enough time for the first location to arrive..
+        I suggest you to launch the Maps app first, so that there is at least some confirmed location, and then test your app."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="The fused Location Provider will only maintain background location if at least one client is connected to it. Now just turning on the location service will not guarantee to store the last known location.
+        Once the first client connects, it will immediately try to get a location. If your activity is the first client to connect and getLastLocation() is invoked right away in onConnected(), that might not be enough time for the first location to arrive..
+        I suggest you to launch the Maps app first, so that there is at least some confirmed location, and then test your app."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="The fused Location Provider will only maintain background location if at least one client is connected to it. Now just turning on the location service will not guarantee to store the last known location.
+        Once the first client connects, it will immediately try to get a location. If your activity is the first client to connect and getLastLocation() is invoked right away in onConnected(), that might not be enough time for the first location to arrive..
+        I suggest you to launch the Maps app first, so that there is at least some confirmed location, and then test your app."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
