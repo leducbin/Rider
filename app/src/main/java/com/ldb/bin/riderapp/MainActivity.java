@@ -21,6 +21,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.ldb.bin.riderapp.Common.Common;
 import com.ldb.bin.riderapp.Model.Rider;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
@@ -55,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         //Init FireBase
         auth = FirebaseAuth.getInstance();
         db = FirebaseDatabase.getInstance();
-        users = db.getReference("Riders"); // Change name of References to "Riders", old name is "Users"
+        users = db.getReference(Common.user_rider_tb1); // Change name of References to "Riders", old name is "Users"
         //init View
         btnSignIn = (Button) findViewById(R.id.btnSignIn);
         btnRegister = (Button) findViewById(R.id.btnRegister);
